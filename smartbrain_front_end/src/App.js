@@ -81,9 +81,9 @@ class App extends Component {
     this.setState({box: box});
   }
 
-onInputChange = (event) => {
-  this.setState({input: event.target.value});
-}
+  onInputChange = (event) => {
+    this.setState({input: event.target.value});
+  }
 
 onButtonSubmit = () => {
   this.setState({imageUrl: this.state.input});
